@@ -4,7 +4,7 @@ data_ingestion:
   root_dir: artifacts/data_ingestion
   source_url: https://github.com/rennn4/datas/raw/refs/heads/main/Chicken-fecal-images.zip
   local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data ingestion
+  unzip_dir: artifacts/data_ingestion
 
 
 prepare_base_model:
@@ -21,4 +21,4 @@ prepare_callbacks:
 
 training:
   root_dir: artifacts/training
-  trained_model_path: artifacts/trainig/model.h5
+  trained_model_path: artifacts/training/model.h5
